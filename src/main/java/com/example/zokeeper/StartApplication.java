@@ -59,17 +59,5 @@ public class StartApplication {
 
     }
 
-    public static void task(int i) throws  Exception{
-        System.out.println("第"+i+"次执行...");
-        if (i==5){
-            System.out.println(i/0);
-
-        }else{
-            System.out.println("第"+i+"次执行完成...");
-        }
-
-    }
-
-
 
 }
