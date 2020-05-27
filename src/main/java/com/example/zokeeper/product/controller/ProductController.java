@@ -31,4 +31,18 @@ public class ProductController {
         System.out.println("服务调用开始....");
         return new Product(id,"productName:" + localPort);
     }
+
+    /**
+     * 测试RestTemplate的使用
+     * @return
+     */
+    @RequestMapping("/test")
+    public Object testRestTemplate(){
+        System.out.println("---testRestTemplate---服务调用开始....");
+        return "success";
+    }
+
+
+
+
 }
